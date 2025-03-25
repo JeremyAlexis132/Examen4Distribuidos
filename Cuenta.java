@@ -10,7 +10,7 @@ public class Cuenta extends Thread{
     } else {
       this.retirarDinero(50);
     }
-    System.out.println("Termina el " + getName());
+    System.out.println("Termina el q" + getName());
   }
   public synchronized void depositarDinero(int cantidad){
     saldo += cantidad;
